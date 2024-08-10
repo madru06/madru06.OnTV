@@ -54,12 +54,8 @@ nav ul li a {
 	padding: 20px;
 	text-decoration: none;
 }
-nav ul li a:hover {
-	background: #003300;
-	color: whites;
-}
 table{
-	margin-left: 20%;
+	margin-left: 0px;
 	margin-top: 5%;
 	width: 60%;
 }
@@ -87,6 +83,10 @@ td{
 	padding-top: 15%;
 	text-align: center;
 }
+#current_page a{
+	background-color: #1e1e1e;
+	border-bottom: 1px lightslategray solid;
+}
 #come h1{
 	background-color: chocolate;
 	color: whitesmoke;
@@ -103,8 +103,30 @@ td{
 	background-color: teal;
 	color: whitesmoke;
 }
+#main_menu ul li:nth-child(1) :hover {
+	background: #003300;
+	border-bottom: black;
+}
+#main_menu ul li:nth-child(2) :hover {
+	background: chocolate;
+	border-bottom: 1px black solid;
+}
+#main_menu ul li:nth-child(3) :hover {
+	background: maroon;
+	border-bottom: 1px black solid;
+}
+#main_menu ul li:nth-child(4) :hover {
+	background: steelblue;
+	border-bottom: 1px black solid;
+}
+#main_menu ul li:nth-child(5) :hover {
+	background: teal;
+	border-bottom: 1px black solid;
+}
 .content{
 	width: 100%;
+	display: flex;
+    justify-content: center;
 }
 .ques{
 	font-family: 'Questrial', sans-serif;
